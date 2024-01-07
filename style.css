@@ -1,0 +1,27 @@
+
+Span{
+    display: grid;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 100px;
+    cursor: pointer;
+}
+Span:hover{
+    background-color: lightblue;
+}
+/*body design*/
+body{
+    display: block;
+    align-items: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*image shape*/
+#characterImage{
+    border-radius: 70%;
+}
