@@ -7,7 +7,8 @@ const displayVotes=document.querySelector("#characterVote");
 //form nodes declaration
 const addForm=document.querySelector("#voteForm");
 const voteInput=document.querySelector("#vote");
-//decalring the server(end point)
+const reset=document.querySelector("#resetButton");
+//declaring the server(end point)
 const characters= " http://localhost:3000/characters";
 //declaring the 
 const characterBar=document.querySelector("#characterContainer");
@@ -51,7 +52,7 @@ function displayCharacter(charactersObj){
         objGlobal.votes += parseInt(voteInput.value);
         displayVotes.textContent = objGlobal.votes;
         //patch request which then changes the server without altering the original server
-        patch(objGlobal);
+    
     });
 }
 
