@@ -1,4 +1,4 @@
-//declaring global storage
+document.addEventListener("DOMContentLoaded",()=>{//declaring global storage
 let objGlobal;
 //declaring nodes display(declared to be invoked globally)
 const displayName=document.querySelector("#characterName");
@@ -55,4 +55,4 @@ function displayCharacter(charactersObj){
     
     });
 }
-
+})
